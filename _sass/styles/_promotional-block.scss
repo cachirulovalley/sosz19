@@ -1,0 +1,52 @@
+.promotional-block {
+    background: $yellow;
+
+    .col > * {
+        color: $black;
+    }
+
+    .col {
+        align-items: stretch;
+        font-family: 'Poppins';
+        font-weight: 600;
+        text-align: left;
+
+        h3 {
+            font-size: 32px;
+            margin-bottom: 40px;
+            font-family: 'Poppins';
+            font-weight: 600;
+        }
+
+        h4 {
+            font-size: 26px;
+            line-height: 30px;
+            margin-bottom: 20px;
+            font-family: 'Poppins';
+            font-weight: 600;
+        }
+
+        .button {
+            background: $yellow;
+            color: $black;
+            display: inline-block;
+            font-size: 24px;
+            padding: 20px 100px;
+            border: 4px solid $black;
+            border-radius: 0;
+            text-transform: lowercase;
+            font-family: 'Poppins';
+            font-weight: 600;
+            width: 100%;
+
+            &:hover {
+                background: $white;
+                color: $black;
+            }
+        }
+
+        &:first-child {
+            margin-bottom: 40px;
+        }
+    }
+}

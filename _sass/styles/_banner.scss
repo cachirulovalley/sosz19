@@ -1,0 +1,101 @@
+// Banner
+.banner {
+    background-image: url(/img/bgtrama.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-color: $yellow;
+    color: $black;
+    padding: 84px 60px 60px 60px;
+
+    .banner-top,
+    .banner-countdown,
+    .banner-buttons {
+        max-width: 1168px;
+        margin: auto;
+    }
+    .banner-countdown {
+        margin: 50px auto;
+    }
+}
+
+.banner-hashtag {
+    color: $black;
+    font-size: 20px;
+    position: absolute;
+    top: 80px;
+    font-weight: 600;
+
+    span {
+        display: block;
+    }
+}
+
+.banner-buttons {
+    text-align: center;
+
+    .button {
+        background: $yellow;
+        color: $black;
+        display: inline-block;
+        font-size: 26px;
+        padding: 20px 100px;
+        border: 4px solid $black;
+        border-radius: 0;
+        text-transform: lowercase;
+        font-weight: 800;
+
+        &:hover {
+            background: $white;
+            color: $black;
+        }
+    }
+}
+
+.banner-countdown {
+	text-align: center;
+    padding: 0;
+    list-style: none;
+}
+
+.banner-countdown li {
+	display: inline-block;
+    margin: 0 2%;
+}
+
+.banner-countdown li span {
+	font-size: 34px;
+    font-weight: 600;
+    color: $black;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width : 1140px){
+    .banner {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .banner-hashtag {
+        $size: 2vw;
+        font-size: $size;
+        line-height: $size * 1.2;
+    }
+    .banner-countdown li span {
+        $size: 2.5vw;
+        font-size: $size;
+        line-height: $size * 1.2;
+    }
+    .banner-buttons .button {
+        $size: 3vw;
+        font-size: $size;
+        line-height: $size * 1.2;
+        padding-left: $size * 2;
+        padding-right: $size * 2;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    .banner-countdown li span {
+        font-size: 16px;
+        display: block;
+    }
+}

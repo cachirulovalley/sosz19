@@ -1,0 +1,49 @@
+.schedule-block {
+    background: $magenta;
+    margin-top: -10px;
+
+    .event-schedule-title,
+    .panel-body {
+        border-radius: 0 !important;
+        background: $black;
+        > * {
+            color: $magenta;
+        }
+    }
+
+    .event-schedule-title {
+        padding: 0;
+    }
+
+    .event-schedule-title > * {
+        font-size: 24px;
+        padding: 15px 10px;
+
+        @media only screen and (max-width : 500px) {
+            font-size: 12px;
+        }
+    }
+
+    .event-schedule-time {
+        background: $white;
+        border-radius: 0;
+        width: 7.5em !important;
+        text-align: center;
+    }
+
+    .event-schedule-name {
+        color: $white;
+    }
+
+    .panel-body {
+        color: $white;
+        text-align: center;
+        font-family: 'Poppins';
+        font-weight: 600;
+    }
+
+    .panel-title {
+        font-family: 'Poppins';
+        font-weight: 600;
+    }
+}

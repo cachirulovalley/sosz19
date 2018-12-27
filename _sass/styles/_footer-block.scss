@@ -1,0 +1,44 @@
+.footer-top-block {
+    background: $magenta;
+
+    .section-wrapper {
+        align-items: center;
+    }
+
+    p {
+        color: $black;
+        font-size: 26px;
+        line-height: 34px;
+        font-family: 'Poppins';
+        font-weight: 600;
+
+        &.footer-text{
+            margin-bottom: 40px;
+        }
+    }
+
+    a {
+        color: $black;
+        font-weight: 300;
+    }
+
+    .footer-link {
+        margin-bottom: 0;
+    }
+}
+
+.footer-copyright-block {
+    background: $black;
+    text-align: center;
+    padding: 20px;
+    color: $black;
+
+    p {
+        margin-bottom: 0;
+    }
+
+    a {
+        color: $white;
+        font-weight: 400;
+    }
+}
