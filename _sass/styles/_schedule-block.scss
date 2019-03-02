@@ -2,6 +2,13 @@
     background: $magenta;
     margin-top: -10px;
 
+    .container {
+        @media only screen and (max-width : 500px) {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
     .event-schedule-title,
     .panel-body {
         border-radius: 0 !important;
