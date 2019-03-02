@@ -38,7 +38,7 @@
   background-image: url(../img/logos/cuentica.png);
 }
 .sponsor-semmantica {
-  background-image: url(../img/logos/semmantica.png);
+  background-image: url(../img/logos/semmantica.jpg);
 }
 .sponsor-540deg {
   width: 100px;
@@ -86,9 +86,9 @@
   width: 143px;
   background-image: url(../img/logos/deiser.png);
 }
-.sponsor-manfred {
+.sponsor-runroom {
   width: 143px;
-  background-image: url(../img/logos/manfred.png);
+  background-image: url(../img/logos/runroom.jpg);
 }
 
 @media (max-width: 480px) {
@@ -96,6 +96,6 @@
     display: block;
   }
   .sponsor {
-    width: 100%;
+    margin: 0 auto;
   }
 }

@@ -85,7 +85,7 @@
         line-height: $size * 1.2;
     }
     .banner-buttons .button {
-        $size: 3vw;
+        $size: 5vw;
         font-size: $size;
         line-height: $size * 1.2;
         padding-left: $size * 2;
@@ -97,5 +97,12 @@
     .banner-countdown li span {
         font-size: 16px;
         display: block;
+    }
+    .banner-buttons .button {
+        $size: 5vw;
+        font-size: $size;
+        line-height: $size * 1.2;
+        padding-left: $size * 2;
+        padding-right: $size * 2;
     }
 }
